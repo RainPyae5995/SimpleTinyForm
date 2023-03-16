@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conference Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="img/trophy.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1>Travel Information Form</h1>
+        <div class="i-box">
+          <label>Contact Name</label>
+          <div class="ipts">
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              class=""
+              autocomplete="off"
+              placeholder="First Name"
+            />
+            <input
+              type="text"
+              name="secondname"
+              id="secname"
+              class=""
+              autocomplete="off"
+              placeholder="Second Name"
+            />
+          </div>
+        </div>
+        <div class="i-box">
+          <label>Email</label>
+          <div class="ot-box">
+            <input
+              type="email"
+              name="username"
+              id="email"
+              class=""
+              placeholder="nadia20006@gmail.com"
+              autocomplete="off"
+            />
+          </div>
+        </div>
+        <div class="i-box">
+          <label>Phone Number</label>
+          <div class="ot-box">
+            <input
+              type="tel"
+              name="username"
+              id="telno"
+              class=""
+              placeholder="+00 000 000 000"
+              autocomplete="off"
+            />
+          </div>
+        </div>
+        <div class="i-box">
+          <label>Address</label>
+          <div class="ipts">
+            <input
+              type="text"
+              name="username"
+              id="city"
+              class=""
+              autocomplete="off"
+              placeholder="City"
+            />
+            <input
+              type="text"
+              name="username"
+              id="state"
+              class=""
+              autocomplete="off"
+              placeholder="
+              State/Province"
+            />
+          </div>
+        </div>
+        <div class="i-box">
+          <label>Postal/Zip Code</label>
+          <div class="ot-box">
+            <input
+              type="text"
+              name="username"
+              id="zipcode"
+              class=""
+              autocomplete="off"
+              placeholder="*****************"
+            />
+          </div>
+        </div>
+        <div class="i-box">
+          <label style="text-align: center; color: #7e4e0a; letter-spacing: 1px"
+            ><b>Payment Method</b></label
+          >
+          <div class="choosen">
+            <input
+              type="radio"
+              name="payment"
+              id="pmethod"
+              value="Kpay"
+              class="payyy"
+            />
+            <img src="img/kpay.png" alt="Kpay" />
+            <input
+              type="radio"
+              name="payment"
+              id="pmethod2"
+              value="Wavepay"
+              class="payyy"
+            />
+            <img src="img/wave.png" alt="wave" />
+            <input
+              type="radio"
+              name="payment"
+              id="pmethod3"
+              value="Cbpay"
+              class="payyy"
+            />
+            <img src="img/cb.png" alt="cb" />
+            <input
+              type="radio"
+              name="payment"
+              id="pmethod4"
+              value="Ok$pay"
+              class="payyy"
+            />
+            <img src="img/okpay.png" alt="okie" />
+          </div>
+        </div>
+        <div class="i-btn">
+          <input
+            type="submit"
+            value="Register"
+            name="submit"
+            id="submit"
+            class="re-btn"
+          />
+        </div>
+      </div>
+      <div class="box" id="box">
+        <h1>Travellers' Informations</h1>
+        <div class="in-box">
+          <p>Contact Name</p>
+          <div class="ifmn">
+            <span id="text"></span>
+            <span id="text2"></span>
+          </div>
+        </div>
+        <div class="in-box">
+          <p>Email</p>
+          <div class="ifmn-2">
+            <span id="text3"></span>
+          </div>
+        </div>
+        <div class="in-box">
+          <p>Phone Number</p>
+          <div class="ifmn-2">
+            <span id="text4"></span>
+          </div>
+        </div>
+        <div class="in-box">
+          <p>Address</p>
+          <div class="ifmn">
+            <span id="text5"></span>
+            <span id="text6"></span>
+          </div>
+        </div>
+        <div class="in-box">
+          <p>Postal/Zip Code</p>
+          <div class="ifmn-2">
+            <span id="text7"></span>
+          </div>
+        </div>
+        <div class="in-box">
+          <p style="text-align: center; color: #7e4e0a; letter-spacing: 1px">
+            <b> Payment Method</b>
+          </p>
+          <div class="i-choose" id="choose">
+            <img src="img/kpay.png" alt="kpay" id="kpayy" />
+            <img src="img/wave.png" alt="wave" id="wavepayy" />
+            <img src="img/cb.png" alt="cb" id="cbpayy" />
+            <img src="img/okpay.png" alt="okie" id="okpayy" />
+          </div>
+        </div>
+        <div class="i-btn">
+          <input
+            type="submit"
+            value="Gracias"
+            name="submit"
+            id="submit2"
+            class="re-btn"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
