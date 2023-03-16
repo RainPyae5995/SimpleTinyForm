@@ -134,6 +134,9 @@ let fun22 = () => {
   }
 };
 
+let myNames = [`MPPN`, `Nadia`];
+console.log(myNames);
+
 btn.addEventListener("click", fun1);
 btn.addEventListener("click", fun2);
 btn.addEventListener("click", fun3);
