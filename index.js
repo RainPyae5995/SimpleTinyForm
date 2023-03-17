@@ -134,6 +134,15 @@ let fun22 = () => {
   }
 };
 
+let blockdiv = () => {
+  document.getElementById("box").style.display = "block";
+  document.getElementById("box1").style.display = "none";
+};
+
+let hideDiv = () => {
+  document.getElementById("box1").style.display = "block";
+  document.getElementById("box").style.display = "none";
+};
 let myNames = [`MPPN`, `Nadia`];
 console.log(myNames);
 
