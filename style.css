@@ -130,6 +130,9 @@ progress {
   text-align: center;
 }
 
+/* width: 38%;
+height: 43px; */
+
 .box .i-btn .re-btn {
   width: 38%;
   height: 43px;
@@ -196,7 +199,6 @@ progress {
 }
 
 .container .box:nth-child(2) {
-  display: none;
   border-radius: 50px 20px 50px;
 }
 
